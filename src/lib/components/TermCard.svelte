@@ -8,24 +8,27 @@
   <span class="title">
     {name}
     {#if acronym}
-        ({acronym})
+      ({acronym})
     {/if}
   </span>
-  <span>-</span>
+  <span class="dash"></span>
   <span class="definition">{definition}</span>
 </div>
 
 <style>
   .general-definition-container {
-    display: flex;
-    align-items: flex-start;
-    margin: 1em;
-    gap:  1em;
+    margin: 1em 0;
   }
 
   .title {
     font-size: 18px;
     font-weight: 500;
   }
+  .dash {
+    display: inline-block;
+    width: 1em; 
+    margin: 0 .25em .25em .25em;
+    border-bottom: 2px solid black;
 
+  }
 </style>
