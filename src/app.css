@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #004853;
+  --secondary-color: #d6e4e3;
+  --tertiary-color: #6c6cc7;
+  --fourth-color: #b1b1e5;
+  --fifth-color: #7EDD87;
+  --primary-shadow: -0.7px 0.6px 1px rgba(22, 22, 22, 0.5),
+  2.3px 2.1px 3.5px -0.8px rgba(22, 22, 22, 0.5),
+  -5.7px 5.2px 8.7px -1.7px rgba(22, 22, 22, 0.5),
+  -13.8px 12.7px 21.1px -2.5px rgba(22, 22, 22, 0.5);
+  --footer-height: 180px;
+}
+
+body {
+  margin: 0;
+}
+
+main { 
+  min-height: calc(100vh - var(--footer-height)); 
+}
+
+body > footer { 
+  position: sticky; top: 100vh; 
+}
