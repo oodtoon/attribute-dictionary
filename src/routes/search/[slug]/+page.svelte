@@ -34,7 +34,7 @@
 
   function getTermMatches() {
     return generalTerms.filter((term) => {
-      return term.name.toLocaleLowerCase().includes(data.slug);
+      return (term.name.toLocaleLowerCase().includes(data.slug) || term.acronym?.toLocaleLowerCase().includes(data.slug));
     });
   }
 
@@ -110,7 +110,10 @@
           {#each foundTerms as term}
             <li>
               <a href={`/definition/${term.name.toLocaleLowerCase()}`}
-                >{term.name}</a
+                >{term.name}
+                {#if term.acronym}
+                  - ({term.acronym})
+                {/if}</a
               >
             </li>
           {/each}

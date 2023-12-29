@@ -17,7 +17,10 @@
     history = unparsedHistory ? JSON.parse(unparsedHistory) : [];
   }
 
-    
+    // TO DO
+    // push spelling mistake fix
+    // put paranthethis around acronym in definition
+    // enable searhc by acronym
 </script>
 
 {#if !history.length}

@@ -42,7 +42,7 @@
         <h2 class="definition-title">
           {attributeName}
           {#if acronym}
-            {acronym}
+            ({acronym})
           {/if}
         </h2>
 

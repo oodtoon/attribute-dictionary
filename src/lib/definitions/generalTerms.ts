@@ -9,7 +9,7 @@ export const generalTerms = [
     name: "Global Standards 1",
     acronym: "GS1",
     definition:
-      "A nonprofit organization that develops and maintains global standards for business communication, including governing the rules and regulations of data pools working within the GDSN. Their most known standard is the barcode, a symbol printed on products that can be scanned electronically. However, the provide additional services as well such as creating a company GLN (Global Location Number) or liscensing a quntity of UPC codes.",
+      "A nonprofit organization that develops and maintains global standards for business communication, including governing the rules and regulations of data pools working within the GDSN. Their most known standard is the barcode, a symbol printed on products that can be scanned electronically. However, the provide additional services as well such as creating a company GLN (Global Location Number) or liscensing a quantity of UPC codes.",
   },
   {
     name: "Data Pool",
